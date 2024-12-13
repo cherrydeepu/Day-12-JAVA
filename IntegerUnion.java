@@ -11,5 +11,8 @@ public class IntegerUnion{
         for(int s2:arr2)
         b.add(s2);
         System.out.println(b);
+        Set<Integer> U=new HashSet<>a;
+        U.addAll(b);
+        System.out.println(U);
     }
 }
